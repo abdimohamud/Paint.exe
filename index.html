@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paint.exe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <label for="lineWidth">Line Width:</label>
+      <input
+        id="lineWidth"
+        type="range"
+        name="lineWidth"
+        min="10"
+        max="360"
+        value="10"
+      />
+      <label for="color">Color:</label>
+      <input id="base" type="color" name="base" value="#030302" />
+    </div>
+    <canvas id="draw" width="800" height="800"></canvas>
+    <script src="index.js"></script>
+  </body>
+</html>

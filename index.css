@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+
+  font-family: "helvetica neue", sans-serif;
+
+  font-size: 25px;
+}
+
+.controls {
+  background: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+input {
+  width: 100px;
+}
